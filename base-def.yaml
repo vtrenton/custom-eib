@@ -8,3 +8,11 @@ operatingSystem:
   users:
     - username: root
       encryptedPassword: $6$NEi4Y1pauz2Ya9gy$QUBRl/YkPgUyiJ41Iw9Zho7ngoWxbhTQL2U/ahB3b7iXmAOBc1xqw4RabfYs/2SfCo6EWi4Sg8avnczEkDjRk0
+  packages:
+    noGPGCheck: false 
+    packageList:
+      - yq
+      - tailscale
+    additionalRepos:
+      - url: https://download.opensuse.org/repositories/openSUSE:Factory/standard
+      - url: https://pkgs.tailscale.com/stable/opensuse/leap/15.5/x86_64
